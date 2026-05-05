@@ -1,0 +1,34 @@
+# MATLAB & Simulink
+# Ignore autosave files and Simulink cache
+*.asv
+*.slxc
+*.mex*
+*.log
+slprj/
+*_ert_rtw/
+mdl_info.mat
+
+# Python
+# Ignore compiled python files and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Documentation & Reports
+# Ignore temporary LaTeX or Word lock files
+~$*.docx
+*.bak
+*.tmp
+
+# System Files
+# Ignore OS-specific metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# User-specific settings
+.vscode/
+.idea/
+*.swp
